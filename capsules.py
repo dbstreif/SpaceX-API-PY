@@ -6,7 +6,6 @@ def get_all_capsules() -> dict:
 
     init()
     jsondata = get("https://api.spacexdata.com/v4/capsules").json()
-    print(jsondata)
     return jsondata
 
 def get_capsule(capsule_id: str) -> dict:
