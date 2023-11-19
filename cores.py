@@ -29,5 +29,3 @@ def get_core_id() -> list[dict]:
         idseriallist.append(serialgrouping)
     
     return idseriallist
-
-print(get_core_id())
